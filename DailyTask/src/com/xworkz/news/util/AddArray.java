@@ -26,7 +26,6 @@ public class AddArray {
 					System.out.println("The first number is" + arr + " The second number is " + arrs);
 					break;
 				}
-
 			}
 
 		}

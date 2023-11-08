@@ -1,5 +1,6 @@
 package Interview;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class SwapArray {
@@ -39,8 +40,9 @@ public class SwapArray {
 
 		for (int i = 0; i < size; i++) {
 			int finalvalue = reverse[i];
-			System.out.println(finalvalue + " The positon it is stored in " + i);
+			
 		}
+		System.out.println(Arrays.toString(reverse));
 
 	}
 }
